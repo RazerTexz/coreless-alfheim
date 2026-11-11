@@ -26,5 +26,5 @@ jobs:
       - name: Upload
         uses: actions/upload-artifact@v7.0.2
         with:
-          name: libs
+          name: noredcorealfheim
           path: build/libs
