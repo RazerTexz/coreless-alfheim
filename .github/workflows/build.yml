@@ -19,9 +19,7 @@ jobs:
           cache-encryption-key: ${{ secrets.CACHE_ENCRYPTION_KEY }}
 
       - name: Build
-        run: |
-          chmod +x gradlew
-          ./gradlew assemble
+        run: sh gradlew assemble
 
       - name: Upload
         uses: actions/upload-artifact@v7.0.2
