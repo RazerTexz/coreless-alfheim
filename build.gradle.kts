@@ -59,8 +59,6 @@ repositories {
 }
 
 dependencies {
-	//implementation("dev.redstudio:Red-Core-MC:$redCoreVersion")
-
 	compileOnly(rfg.deobf("curse.maven:dynamic-lights-227874:2563244"))
 	compileOnly(rfg.deobf("curse.maven:fluidlogged-api-485654:3697254")) // Earliest support version (v1.7)
 
